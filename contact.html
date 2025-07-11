@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TINSAE TV</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+   <nav class="fixed-top">
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <img src="image/logo.jpg" class="logo-img" alt="Jesus Church Logo" />
+          <span class="logo-text">TINSAE TV</span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown">
+            <a href="Ministries.html"
+              >Ministries
+              <!--co<i class="fas fa-chevron-down"></i
+            >--></a
+            >
+            <!--co <ul class="dropdown-menu">
+              <li>
+                <a href="prayer_community.html"
+                  ><i class="fas fa-praying-hands"></i> Prayer Community</a
+                >
+              </li>
+              <li>
+                <a href="bible_study.html"
+                  ><i class="fas fa-bible"></i> Bible Study</a
+                >
+              </li>
+              <li>
+                <a href="outreach.html"
+                  ><i class="fas fa-people-carry"></i> Outreach</a
+                >
+              </li>
+              <li>
+                <a href="parish_life.html"
+                  ><i class="fas fa-church"></i> Parish Life</a
+                >
+              </li>
+            </ul>-->
+          </li>
+          <li><a href="sermons.html">sermons</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+                              <li><a href="gallery.html">Gallery</a></li>
+
+        </ul>
+
+        <button class="menu-btn"><i class="fas fa-bars"></i></button>
+      </div>
+    </nav>
+
+    <!--====================================
+=            contact area        =
+=====================================-->
+<section class="contact-section">
+    <div class="container" style="max-width: 1300px; margin-top: 67px;">
+        <div class="contact-header">
+            <h1 class="contact-title">Get in Touch</h1>
+            <p class="contact-subtitle">We're here to help and answer any questions you might have</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-7">
+                <div class="contact-card">
+                    <div class="map-container">
+                        <div class="map-overlay"></div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d3940.1666325918172!2d38.70607782411375!3d9.04856049101355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d9.048625!2d38.708755!4m3!3m2!1d9.048629!2d38.7087563!5e0!3m2!1sen!2set!4v1742296680072!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="contact-card">
+                    <div class="info-group">
+                        <div class="info-title">
+                            <i class='bx bx-current-location'></i>
+                            Office Location
+                        </div>
+                        <div class="info-content">
+                            123112, Moscow, Presnensky dist.,<br>
+                            Klimashkina st., 16
+                        </div>
+                    </div>
+
+                    <div class="info-group">
+                        <div class="info-title">
+                            <i class='bx bx-envelope'></i>
+                            Email Us
+                        </div>
+                        <div class="info-content">
+                            <div class="mb-3">
+                                <a href="mailto:info@prime.com" class="contact-link mb-2">
+                                    info@prime.com
+                                </a>
+                                <button class="copy-button ms-2" onclick="copyEmail('info@prime.com', this)">
+                                    <i class='bx bx-copy'></i> Copy
+                                </button>
+                            </div>
+                            <div class="mb-3">
+                                <a href="mailto:support@prime.com" class="contact-link mb-2">
+                                    support@prime.com
+                                </a>
+                                <button class="copy-button ms-2" onclick="copyEmail('support@prime.com', this)">
+                                    <i class='bx bx-copy'></i> Copy
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-group">
+                        <div class="info-title">
+                            <i class='bx bx-phone'></i>
+                            Call Us
+                        </div>
+                        <div class="info-content">
+                            <div class="mb-2">
+                                <a href="tel:+78005454515" class="contact-link">
+                                    +7 800 545-45-15
+                                </a>
+                            </div>
+                            <div class="mb-2">
+                                <a href="tel:+74952573522" class="contact-link">
+                                    +7 495 257-35-22
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-group">
+                        <div class="info-title">
+                            <i class='bx bx-time'></i>
+                            Business Hours
+                        </div>
+
+                            <!-- B 
+
+                        <div class="info-content">
+                            <div class="status-badge mb-3" id="status-badge">
+                                <span class="status-dot"></span>
+                                <span class="status-text">Currently Open</span>
+                            </div>-->
+                            <div class="hours-grid">
+                                <div class="hours-item">
+                                    <span>Monday - Friday</span>
+                                    <span>10:00 — 22:00</span>
+                                </div>
+                                <div class="hours-item">
+                                    <span>Saturday</span>
+                                    <span>10:00 — 18:00</span>
+                                </div>
+                                <div class="hours-item">
+                                    <span>Sunday</span>
+                                    <span>10:00 — 18:00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!--==== End of conact area ====-->
+
+    <!--====================================
+=            Footer           =
+=====================================-->
+     <footer>
+      <div class="container" style="max-width: 1300px">
+        <div class="footer-content">
+          <div class="row">
+            <div class="col-lg-4 mb-5">
+              <div class="footer-logo">ABOUT TINSAE TV</div>
+              <p class="footer-text">
+                A place of worship, fellowship, and spiritual growth. Join us as
+                we celebrate God's love and grace in our community.
+              </p>
+              <div class="footer-social">
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-5">
+              <h5 class="footer-title">Quick Links</h5>
+              <ul class="footer-links">
+                <li>
+                  <a href="home.html"
+                    ><i class="fas fa-chevron-right"></i> Home</a
+                  >
+                </li>
+                <li>
+                  <a href="about.html"
+                    ><i class="fas fa-chevron-right"></i> About</a
+                  >
+                </li>
+                <li>
+                  <a href="Ministries.html"
+                    ><i class="fas fa-chevron-right"></i> Ministries</a
+                  >
+                </li>
+
+                <li>
+                  <a href="sermons.html"
+                    ><i class="fas fa-chevron-right"></i> Sermons</a
+                  >
+                </li>
+
+                <li>
+                  <a href="contact.html"
+                    ><i class="fas fa-chevron-right"></i> Contact</a
+                  >
+                </li>
+                   <li>
+                  <a href="gallery.html"
+                    ><i class="fas fa-chevron-right"></i> Gallery</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+              <h5 class="footer-title">Service Times</h5>
+              <ul class="footer-links">
+                <li><i class="fas fa-clock"></i> Sunday Worship: 10:00 AM</li>
+                <li><i class="fas fa-clock"></i> Sunday School: 9:00 AM</li>
+                <li><i class="fas fa-clock"></i> Evening Service: 6:00 PM</li>
+                <li><i class="fas fa-clock"></i> Wednesday Prayer: 7:00 PM</li>
+                <li>
+                  <i class="fas fa-clock"></i> Youth Group: Friday 7:00 PM
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+              <h5 class="footer-title">Contact Us</h5>
+              <ul class="footer-links">
+                <li><i class="fas fa-phone"></i> Phone: (123) 456-7890</li>
+                <li><i class="fas fa-envelope"></i> Email: info@example.com</li>
+                <li>
+                  <i class="fas fa-map-marker-alt"></i> Address: 123 Main St,
+                  City, Country
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2023 TINSAE TV. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!--==== End of Footer ====-->
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+       <script src="js/script.js"></script>
+
+  </body>
+</html>
